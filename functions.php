@@ -11,3 +11,9 @@ function UrlIs($var)
 {
     return $_SERVER["REQUEST_URI"] === $var;
 }
+function authorize($condition, $status = Response::FORBIDDEN)
+{
+    if (!$condition) {
+        abort($status);
+    }
+}

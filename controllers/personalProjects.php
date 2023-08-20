@@ -1,4 +1,4 @@
 <?php
-$heading = "personal projects";
+$heading = "Personal Projects";
 
 include("views/personalProjects.view.php");
