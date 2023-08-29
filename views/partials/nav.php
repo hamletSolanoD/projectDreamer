@@ -10,10 +10,10 @@
                     <div class="ml-10 flex items-baseline space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                         <a href="/dashboard" class="<?= UrlIs('controllers/dashboard.php') ? "bg-gray-900 text-white" : "text-gray-300 " ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Dashboard</a>
-                        <a href="/team" class="<?= UrlIs('controllers/team.php') ? "bg-gray-900 text-white" : "text-gray-300 " ?>  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a>
-                        <a href="/personalProjects" class="<?= UrlIs('controllers/personalProjects.php') ? "bg-gray-900 text-white" : "text-gray-300 " ?>  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
-                        <a href="/calendar" class="<?= UrlIs('controllers/calendar.php') ? "bg-gray-900 text-white" : "text-gray-300 " ?>  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
-                        <a href="/about" class="<?= UrlIs('controllers/about.php') ? "bg-gray-900 text-white" : "text-gray-300 " ?>  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
+                        <a href="/books" class="<?= UrlIs('controllers/books.php') ? "bg-gray-900 text-white" : "text-gray-300 " ?>  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Books</a>
+                        <a href="/friends" class="<?= UrlIs('controllers/friends.php') ? "bg-gray-900 text-white" : "text-gray-300 " ?>  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Friends</a>
+                        <a href="/serch" class="<?= UrlIs('controllers/serch.php') ? "bg-gray-900 text-white" : "text-gray-300 " ?>  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Serch</a>
+                        <a href="/profile" class="<?= UrlIs('controllers/profile.php') ? "bg-gray-900 text-white" : "text-gray-300 " ?>  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Profile</a>
                     </div>
                 </div>
             </div>
@@ -71,10 +71,10 @@
         <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Reports</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Books</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Friends</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Search</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Perfil</a>
         </div>
         <div class="border-t border-gray-700 pb-3 pt-4">
             <div class="flex items-center px-5">
