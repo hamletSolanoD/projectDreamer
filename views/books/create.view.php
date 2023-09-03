@@ -13,10 +13,14 @@
                                 <label for="body" class="block text-sm font-medium text-gray-700">Body</label>
 
                                 <div class="mt-1">
-                                    <textarea id="body" name="body" rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="Here's an idea for a note..."><?= $_POST['body'] ?? '' ?></textarea>
-
-                                    <?php if (isset($errors['body'])) : ?>
-                                        <p class="text-red-500 text-xs mt-2"><?= $errors['body'] ?></p>
+                                    <textarea id="book_title" name="book_title" rows="1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="book_title"><?= $_POST['book_title'] ?? '' ?></textarea>
+                                    <?php if (isset($errors['book_title'])) : ?>
+                                        <p class="text-red-500 text-xs mt-2"><?= $errors['book_title'] ?></p>
+                                    <?php endif; ?>
+                                    <br/>
+                                    <textarea id="book_desc" name="book_desc" rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="book_desc"><?= $_POST['book_desc'] ?? '' ?></textarea>
+                                    <?php if (isset($errors['book_desc'])) : ?>
+                                        <p class="text-red-500 text-xs mt-2"><?= $errors['book_desc'] ?></p>
                                     <?php endif; ?>
                                 </div>
                             </div>
