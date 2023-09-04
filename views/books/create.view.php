@@ -1,6 +1,6 @@
-<?php require('views/partials/head.php') ?>
-<?php require('views/partials/nav.php') ?>
-<?php require('views/partials/banner.php') ?>
+<?php require(base_path("views/partials/head.php")) ?>
+<?php require(base_path('views/partials/nav.php')) ?>
+<?php require(base_path("views/partials/banner.php")) ?>
 
 <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
@@ -17,7 +17,7 @@
                                     <?php if (isset($errors['book_title'])) : ?>
                                         <p class="text-red-500 text-xs mt-2"><?= $errors['book_title'] ?></p>
                                     <?php endif; ?>
-                                    <br/>
+                                    <br />
                                     <textarea id="book_desc" name="book_desc" rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="book_desc"><?= $_POST['book_desc'] ?? '' ?></textarea>
                                     <?php if (isset($errors['book_desc'])) : ?>
                                         <p class="text-red-500 text-xs mt-2"><?= $errors['book_desc'] ?></p>
@@ -38,4 +38,4 @@
     </div>
 </main>
 
-<?php require('views/partials/footer.php') ?>
+<?php require(base_path('views/partials/footer.php')) ?>

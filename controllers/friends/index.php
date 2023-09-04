@@ -1,4 +1,6 @@
 <?php
-$heading = "Friends";
 
-include("views/friends/index.view.php");
+
+
+view("friends/index.view.php",[
+"heading" => "Friends"]);

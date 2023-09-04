@@ -1,4 +1,6 @@
 <?php
 $heading = "Search";
 
-include("views/search/index.view.php");
+view("/search/index.view.php",[
+    "heading"=> "Search"
+]);
